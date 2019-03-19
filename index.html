@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" href="css/font_awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/font_awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <!---SIDEBAR-->
+    <div id="sidebar">
+        <div id="shadow">
+        </div>
+        <div id="sidebarContents">
+            <!--SIDEBAR PROFILE-->
+            <div id="sidebarProfile">
+                <img id="profilePicture" width="100px">
+                <p id="userID">Ozenua Oluwatobi</p>
+            </div>
+            <!--SIDEBAR MENU LIST-->
+            <div class="sidebarMenuList">
+                <div class="menuList">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <span> Profile </span>
+                </div>
+                <div class="menuList">
+                    <i class="fa fa-info" aria-hidden="true"></i>
+                    <span> Account information </span>
+                </div>
+                <div class="menuList">
+                    <i class="fa fa-chart-bar" aria-hidden="true"></i>
+                    <span> Recent transactions </span>
+                </div>
+                <div class="menuList">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    <span> Customer care </span>
+                </div>
+                <div class="menuList">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <span> Chat </span>
+                </div>
+                <div class="menuList">
+                    <i class="fa fa-sign-out-alt" aria-hidden="true"></i>
+                    <span> Logout </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SLASHSCREEEN-->
+    <div id="app-page1">
+        <img id="logo" src="img/Melisa.png">
+        <p id="logo">Melisa</p>
+        <!--Loader-->
+        <div id="loader">
+            <img src="loader" width="75px">
+            <p>Please wait</p>
+        </div>
+    </div>
+    <!--SIGN IN OPTIONS-->
+    <div id="app-page2">
+        <img id="logo"  src="img/Melisa.png" width="75px">
+        <p id="logo">Melisa</p>
+        <!--SIGN IN BUTTONS-->
+
+        <div id="buttons">
+            <button id="bg-button">Sign in</button>
+            <button id="border-button">Register</button>
+        </div>
+    </div>
+    <!--REGISTER PAGE-->
+    <div id="page-Register">
+        <div class="nav-bar">
+            <div id="backButton_" class="icon-left">
+                <i class="fa fa-angle-left"></i>
+            </div>
+            <p class="title">Register</p>
+        </div>
+        <!--input all-->
+        <div class="inputs">
+            <input type="text" name="" id="Name" placeholder="Name">
+            <input type="email" name="" id="Name" placeholder="Email">
+            <input type="number" name="" id="Name" placeholder="Phone number">
+            <input type="text" name="" id="Name" placeholder="Address">
+            <input type="password" name="" id="password" placeholder="password">
+            <input type="password" name="" id="confirm_password" placeholder="Confirm password">
+            <button id="bg-button" style="margin-top: 24px">Register</button>
+        </div>
+    </div>
+    <!--MAIN PAGE IS HERE-->
+    <div id="page-Main">
+        <!--HEADER COMPONENTS GOES HERE-->
+        <div class="icon-left">
+            <i id="menuBtn_1" class="fa fa-bars" style="padding: 16px 0px;color: white"></i>
+        </div>
+        <div id="userInfoHeader">
+            <p>Welcome,</p>
+            <p id="user_name">Ozenua oluwatobi</p>
+        </div>
+        <div id="userProfilePic">
+            <p>OT</p>
+        </div>
+        <!--HEADER-COMPONENTS ENDS HERE-->
+        <hr style="margin: 24px auto; text-align: center;">
+        <div class="accountBalContainer">
+            <p>Your current Balance is</p>
+            <p id="accounBalanceCash"></p>
+        </div>
+        <div id="accountDetailInfo">
+            <div id="">
+                <p>Investment</p>
+            </div>
+            <div id="">
+                <p>Profit</p>
+            </div>
+            <div id="">
+                <p>Returns</p>
+            </div>
+        </div>
+        <div class="accountMenus">
+            <div class="grid right">
+                <i class="fa fa-credit-card"></i>
+                <p class="accountMenuButton">CARD</p>
+            </div>
+            <div class="grid left">
+                <i class="fa fa-chart-bar"></i>
+                <p class="accountMenuButton">PERFORMANCE</p>
+            </div>
+            <div class="grid right">
+                <i class="fa fa-map-marker"></i>
+                <p class="accountMenuButton">BUDGET TRACKER</p>
+            </div>
+            <div class="grid left">
+                <i class="fa fa-question-circle"></i>
+                <p class="accountMenuButton">HELP</p>
+            </div>
+        </div>
+    </div>
+    <!--CardInfo-->
+    <div id="cardInfo">
+        <!--HEADER COMPONENTS GOES HERE-->
+        <div class="icon-left">
+            <i id="menuBtn" class="fa fa-bars" style="padding: 16px 0px;color: white"></i>
+        </div>
+            <div id="backFromCardInfo" class="icon-right">
+                <i class="fa fa-angle-left"></i> back
+            </div>
+            <div id="userInfoHeader">
+                <p>Welcome,</p>
+                <p id="user_name">Ozenua oluwatobi</p>
+            </div>
+            <div id="userProfilePic">
+                <p>OT</p>
+            </div>
+            <!--HEADER-COMPONENTS ENDS HERE-->
+
+            <!--Users trans card-->
+            <div class="accountBalContainer">
+                <p style="display: inline">Melisa Card</p> <i style="float: right; color: orange" class="fa fa-credit-card" aria-hidden="true"></i>
+                <p id="accountNumber">
+                    0 1 2 3 4 5 6 7 8 9 0
+                </p>
+                <p id="user">Ozenua Oluwatobi</p>
+            </div>
+            <hr style="margin: 16px">
+            <!--Transaction goes from here-->
+            <div class="buttons">
+                <button id="border-button">Make Transfer</button>
+                <button id="bg-button">Make Purchase</button>
+            </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/database.js"></script>
+</body>
+</html>
