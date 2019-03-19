@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: lato;
+}
+
+#app-page1{
+    display: none;
+    text-align: center;
+    padding: 30% 0px;
+    position: absolute;
+    width: 100%;
+    color: white;
+    height: 100%;
+    background: linear-gradient(to left bottom, #00a3e0, #273372)
+}
+
+#app-page1 img#logo,
+#app-page2 img#logo {
+    padding: 12px;
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+p#logo {
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #00a3e0;
+    padding: 0px 0px 64px 0px;
+    animation: animateLogo 2000ms ease-in-out 0s infinite;
+}
+
+#app-page2{
+    display: none;
+    text-align: center;
+    padding: 30% 0px;
+    position: absolute;
+    width: 100%;
+    color: white;
+    height: 100%;
+    background: linear-gradient(to left bottom, #00a3e0, #273372)
+}
+
+button#bg-button {
+    color: white;
+    display: block;
+    width: 80%;
+    margin:16px auto;
+    border-radius: 32px;
+    border: none;
+    padding:14px;
+    font-size: 16px;
+    background: #00a3e0;
+}
+
+button#border-button {
+    color: white;
+    display: block;
+    width: 80%;
+    margin:16px auto;
+    border-radius: 32px;
+    border: 2px solid white;
+    padding: 12px;
+    font-size: 16px;
+    background: none;
+}
+#page-Register .nav-bar {
+    background: #00a3e0;
+    text-align: center;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#page-Register .nav-bar .icon-left {
+    color: white;
+    font-size: 16px;
+    float: left;
+    width: 48px;
+}
+#cardInfo .icon-right{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: white;
+}
+#page-Register .nav-bar .title{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: -36px;
+}
+
+#page-Register{
+    background: linear-gradient(to left bottom, #00a3e0, #273372);
+    padding: 62px 0px 0px 0px;
+    height: 100vh;
+    display: none;
+
+}
+
+#page-Register .inputs {
+    text-align: center;
+    margin: auto;
+}
+/*input field*/
+input::placeholder{
+    color: white;
+}
+input[type=text],
+input[type = email],
+input[type = number],
+input[type= password],
+input[type = password]{
+    outline: none;
+    color: white;
+    width: 80%;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 8px 0px;
+    padding: 8px 0px;
+}
+
+#page-Main{
+    display: block;
+    height: 100vh;
+    background: linear-gradient(to left bottom, #00a3e0, #273372);
+    padding: 0px 16px;
+}
+
+#page-Main.active {
+    display: none;
+}
+#page-Main #userInfoHeader {
+    color: white;
+    margin-top: 16px;
+    display: inline-block;
+}
+#page-Main p#user_name {
+    font-size: 20px
+}
+
+#page-Main #userProfilePic {
+    color: white;
+    background: #273372;
+    height: 32px;
+    width: 32px;
+    margin: 16px 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+    float: right;
+    border-radius: 50%;
+}
+
+#page-Main #userProfilePic p{
+    line-height: 32px;
+    font-size: 24px;
+}
+
+#page-Main .accountBalContainer {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+#page-Main #accountDetailInfo {
+    width: 100%;
+    text-align: center;
+    margin: 8px 0px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#page-Main #accountDetailInfo div {
+    display: inline-grid;
+    color: white;
+    height: 32px;
+    margin: 8px 0px;
+    width: calc((100% / 3) - 4px);
+    text-align: center;
+}
+#page-Main .accountMenus{
+    width: 100%;
+    margin: 8px 0px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#page-Main .accountMenus .grid i {
+    text-align: center;
+    margin: 8px 0px 16px 0px;
+}
+
+#page-Main .accountMenus .grid {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.5);
+    margin:16px 0px;
+    width: calc(50% - 18px);
+    padding: 32px 0px;
+    border-radius: 4px;
+    display: inline-grid;
+}
+
+#page-Main .accountMenus .grid.right {
+    margin-right: 12px;
+}
+#page-Main .accountMenus .grid.left {
+    margin-left: 12px;
+}
+
+#cardInfo {
+    display: none;
+    height: 100vh;
+    background: linear-gradient(to left bottom, #00a3e0, #273372);
+    padding: 0px 16px;
+}
+#cardInfo #userInfoHeader {
+    color: white;
+    margin-top: 16px;
+    display: inline-block;
+}
+#cardInfo p#user_name {
+    font-size: 20px
+}
+
+#cardInfo #userProfilePic {
+    color: white;
+    background: #273372;
+    height: 32px;
+    width: 32px;
+    margin: 16px 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+    float: right;
+    border-radius: 50%;
+}
+
+#cardInfo #userProfilePic p{
+    line-height: 32px;
+    font-size: 24px;
+}
+
+#cardInfo .accountBalContainer {
+    background: linear-gradient(to left bottom, #273272, #7705ed);
+    padding: 16px;
+    border-radius: 4px;
+    color: rgb(0, 0, 51);
+    margin-top: 32px;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+#cardInfo #accountNumber {
+    margin: 32px 0px;
+    font-size: 32px;
+    font-family: biysk;
+}
+
+/*ANIMATIONS GO HERE*/
+
+@keyframes animateLogo{
+    0%{
+        color: #00a3e0
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100%{
+        color: #00a3e0
+    }
+}
+
+#sidebarContents{
+    transition: 250ms ease-in;
+    position: fixed;
+    left: -100%;
+    width: 65%;
+    height: 100%;
+    background: #00a3e0;
+    z-index: 1001;
+    box-shadow: 12px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+#shadow{
+    position: absolute;
+    background: #000000a6;
+    height: 100%;
+    width: 100%;
+    transition: 250ms ease-in;
+    left: -100%;
+    z-index: 1001;
+}
+
+#shadow i {
+    color: white;
+    font-size: 24px;
+    vertical-align: -webkit-baseline-middle;
+    text-align: center;
+}
+
+#sidebarProfile {
+    background: #273272;
+    text-align: center;
+    padding: 32px;
+    color: white;
+    vertical-align: -webkit-baseline-middle;
+}
+
+#profilePicture {
+    margin: 24px;
+    border-radius: 50%;
+    border: 2px solid #00a3e0;
+    height: 70px;
+    width: 70px;
+    background: white;
+}
+
+#shadow.active,
+#sidebarContents.active
+{
+left: 0;
+transition: 250ms ease-out;
+}
+
+.sidebarMenuList .menuList {
+    color: white;
+    padding: 16px;
+    border-bottom: 1px solid #273272;
+}
+
+.sidebarMenuList .menuList i {
+    width: 32px;
+    color: #273272;
+}
