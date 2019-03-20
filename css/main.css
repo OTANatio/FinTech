@@ -3,6 +3,286 @@
     padding: 0px;
     font-family: lato;
 }
+/*bg-color: 00a3e0 && 273372*/
+/*button = 00a3e0*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.page-3-page-wrapper{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(#00a3e0, #273372);
+	padding: 0;
+	margin: 0;
+}
+
+.page-3-content-wrapper{
+
+}
+
+.page-3-brand-logo-wrapper{
+	width: 75px;
+	height: 75px;
+	padding-top: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 16px;
+}
+
+.page-3-brand-logo{
+	width: 75px;
+	height: 75px;
+	border-radius: 16px;
+}
+
+.page-3-brand-name{
+	text-align: center;
+	margin-top: 32px;
+	font-size: 32px;
+	color: #fafafa;
+	font-family: Lato;
+	font-weight: 300;
+}
+
+.page-3-top-inputs-wrapper{
+	margin-top: 15%;
+	width: 100%;
+}
+
+.page-3-input{
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	position: relative;
+}
+
+.page-3-email-input,
+.page-3-pwd-input{
+	width: 100%;
+	height: 37px;
+	margin-top: 10px;
+	border: 0;
+	outline: 0;
+	border-radius: 3px;
+	position: relative;
+	background-color: transparent;
+	border-bottom: 1px solid #fafafa
+}
+
+.page-3-label-email::after{
+	font-family: 'font-awesome';
+	content: '\f007';
+	font-size: 1.3em;
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+
+.page-3-label-pwd::after{
+	font-family: 'font-awesome';
+	content: '\f023';
+	font-size: 1.3em;
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+
+.page-3-email-input::placeholder,
+.page-3-pwd-input::placeholder{
+	color: #fafafa
+}
+
+.page-3-submit-input{
+	width: 100%;
+	border: 0;
+	outline: 0;
+	background: #00a3e0;
+	margin-top: 25px;
+	padding: 16px;
+	font-size: 16px;
+	border-radius: 32px;
+	color: #fafafa;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.page-3-forget-pwd-text{
+	color: #fafafa;
+	font-size: 15px;
+	text-align: center;
+	font-family: Lato;
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+.page-3-forget-pwd-text a{
+	color: #00a3e0;
+	text-decoration: none;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.page-4-page-wrapper{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(#00a3e0, #273372);
+	padding: 0;
+	margin: 0;
+}
+
+.page-4-content-wrapper{
+
+}
+
+.page-4-brand-logo-wrapper{
+	width: 75px;
+	height: 75px;
+	padding-top: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-4-brand-logo{
+	width: 70px;
+	height: 70px;
+	box-shadow: 2px 2px 7px #00ff84;
+	border-radius: 75px;
+	background-color: #00ff84;
+	text-align: center;
+	line-height: 85px;
+	color: #273372
+}
+
+.page-4-brand-logo i{
+	font-size: 2em;
+}
+
+.page-4-brand-name{
+	text-align: center;
+	margin-top: 32px;
+	font-size: 17px;
+	color: #fafafa;
+	font-family: Lato;
+	font-weight: 300;
+}
+
+.page-4-top-inputs-wrapper{
+	margin-top: 15%;
+	width: 100%;
+}
+
+.page-4-input{
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	position: relative;
+}
+
+
+.page-4-submit-input{
+	width: 100%;
+	border: 0;
+	outline: 0;
+	background: #00a3e0;
+	margin-top: 25px;
+	padding: 16px;
+	font-size: 16px;
+	color: #fafafa;
+	display: block;
+	border-radius: 32px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.page-5-page-wrapper{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(#00a3e0, #273372);
+	padding: 0;
+	margin: 0;
+}
+
+.page-5-content-wrapper{
+
+}
+
+.page-5-brand-logo-wrapper{
+	width: 75px;
+	height: 75px;
+	padding-top: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-5-brand-logo{
+	width: 70px;
+	height: 70px;
+	box-shadow: 2px 2px 7px #ff0000;
+	border-radius: 75px;
+	background-color: #ff0000;
+	text-align: center;
+	line-height: 85px;
+	color: #273372
+}
+
+.page-5-brand-logo i{
+	font-size: 2em;
+}
+
+.page-5-brand-name{
+	text-align: center;
+	margin-top: 32px;
+	font-size: 17px;
+	color: #fafafa;
+	font-family: Lato;
+	font-weight: 300;
+}
+
+.page-5-top-inputs-wrapper{
+	margin-top: 15%;
+	width: 100%;
+}
+
+.page-5-input{
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	position: relative;
+}
+
+
+.page-5-submit-input{
+	width: 100%;
+	border: 0;
+	outline: 0;
+	background: #00a3e0;
+	margin-top: 25px;
+	padding: 16px;
+	font-size: 16px;
+	color: #fafafa;
+	display: block;
+	border-radius: 32px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 #app-page1{
     display: none;
